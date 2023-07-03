@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <script src="https://kit.fontawesome.com/2c1b74cdb7.js" crossorigin="anonymous"></script> <!-- Include the Font Awesome script -->
+    <style>
+        /* CSS styling for the container */
+        .container {
+            height: 100vh; /* Set the height of the container to 100% of the viewport height */
+            width: 100%; /* Set the width of the container to 100% */
+            display: flex; /* Use flexbox to center the content vertically and horizontally */
+            align-items: center; /* Center the content vertically */
+            justify-content: center; /* Center the content horizontally */
+            background: linear-gradient(rgb(255, 255, 255) 50%, rgb(255, 0, 0)); /* Apply a linear gradient background */
+        }
+
+        /* CSS styling for the icons */
+        .icons {
+            display: flex; /* Use flexbox to align the icons horizontally */
+            justify-content: center; /* Center the icons horizontally */
+        }
+        .icons a {
+            display: flex; /* Set the anchor elements to use flexbox */
+            width: 100px; /* Set the width of each icon container */
+            height: 100px; /* Set the height of each icon container */
+            align-items: center; /* Center the content vertically within each icon container */
+            justify-content: center; /* Center the content horizontally within each icon container */
+            text-decoration: none; /* Remove the default text underline */
+            font-size: 50px; /* Set the font size of the icons */
+            margin: 25px; /* Set the margin around each icon container */
+            box-shadow: 0px 10px 10px black; /* Apply a box shadow to each icon container */
+            border-radius: 50%; /* Make each icon container circular */
+        }        
+        .icons a:nth-child(1) { /* Selecting the first anchor */
+            color: blue; /* Set the color of the first icon */
+            background: -moz-linear-gradient(white 95%, blue 5%); /* Apply a linear gradient background for the first icon */
+        } 
+        .icons a:nth-child(2) { /* Selecting the second anchor */
+            color: rgb(248, 13, 13); /* Set the color of the second icon */
+            background: -moz-linear-gradient(white 95%, red 5%); /* Apply a linear gradient background for the second icon */
+        } 
+        .icons a:nth-child(3) { /* Selecting the third anchor */
+            color: rgb(43, 130, 230); /* Set the color of the third icon */
+            background: -moz-linear-gradient(white 95%, rgb(38, 126, 226) 5%); /* Apply a linear gradient background for the third icon */
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icons">
+            <a href="https://www.facebook.com/">
+                <i class="fab fa-facebook"></i> <!-- Font Awesome Facebook icon -->
+            </a>
+            <a href="https://www.youtube.com/">
+                <i class="fab fa-youtube"></i> <!-- Font Awesome YouTube icon -->
+            </a>
+            <a href="https://www.twitter.com/">
+                <i class="fab fa-twitter"></i> <!-- Font Awesome Twitter icon -->
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
